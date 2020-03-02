@@ -20,7 +20,7 @@
         </div>
         
         <div class="header-nav-zn">
-            <nav class="navbar navbar-expand-sm nav-bar-layout">
+            <nav class="navbar navbar-expand-md nav-bar-layout">
                 <div class="btn-zn">
                     <button class="navbar-toggler header-btn-layout" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon "></span>
