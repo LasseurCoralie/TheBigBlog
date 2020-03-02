@@ -9,6 +9,8 @@ body{
     margin: 0;
 }
 
+/* HEADER */
+
 .header-main-title{
     font-family: 'Modak', cursive;
     color: #DE5832;
@@ -28,7 +30,7 @@ button.header-btn-layout{
 }
 
 span.navbar-toggler-icon{
-    background-image: url(../img/menu-button-of-three-horizontal-lines.svg) !important;
+    background-image: url(../images/menu-button-of-three-horizontal-lines.svg) !important;
 }
 
 li.header-btn-text-layout{
@@ -287,6 +289,8 @@ div.footer-list-link{
 
 ul.footer-list-link{
     margin: 0 0 2rem;
+    padding-left: 0;
+    list-style:none;
 }
 
 li.footer-link{
@@ -329,13 +333,16 @@ button.btn-nl-layout{
 }
 
 div.footer-copyright{
-    text-align: center;
     padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 p.footer-copyright-txt{
     color: white;
     margin-bottom: 0rem;
+    padding: 0 .5rem;
 }
 
 /******************
@@ -345,8 +352,17 @@ p.footer-copyright-txt{
 /* DESKTOP */
 @media screen and (min-width: 1024px){
     div.container{
-    max-width: 1024px;
-    margin: 0 auto;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    div.header-nav-zn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .collapse{
+        display: none !important;
     }
 }
 
@@ -357,12 +373,10 @@ p.footer-copyright-txt{
         margin: 1.5rem;
     }
 
-    .collapse {
-        display: none !important;
-    }
-
     div.btn-zn{
         margin: 0 auto;
+        width: 100%;
+        text-align: center;
     }
 
     ul.header-list-layout{
@@ -405,7 +419,7 @@ p.footer-copyright-txt{
     }
 
     div.btn-zn{
-        width: 83.3333%;
+        width: 100%;
         text-align: center;
     }
 
