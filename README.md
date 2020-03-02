@@ -27,7 +27,10 @@ Utilisation de bootstrap
 
 Mise en place d'une architecture MVC et de routes avec PHP
 
-*Webdesign with guidelines - integration of responsive home page - use of Bootstrap - MVC architecture and routing with PHP*
+Liaison à une BDD MySQL et dynamisation des données
+
+
+*Webdesign with guidelines - integration of responsive home page - use of Bootstrap - MVC architecture and routing with PHP - Link with a MySQL DB and use of dynamics datas*
 
 ----
 
@@ -35,8 +38,6 @@ Mise en place d'une architecture MVC et de routes avec PHP
 
 Intégration des autres pages du site
 
-Liaison à une BDD MySQL
-
 ...
 
-*Integration of other pages of the website - Link with a MySQL DB*
+*Integration of other pages of the website*
